@@ -1,0 +1,47 @@
+This file contains the list of potential API break. A pattern was used to look through all your files and note the spots where you might have a problem. Not everything here is broken./ns\.scp/g
+scp arguments were switch, it is now scp(files, destination, optionally_source). If you were using 2 argument (not 3) this doesn't affect you.
+
+	/backups/prepare-targets.js
+		Line 15 const status = await ns.scp(program, target)
+	scan-deploy.js
+		Line 67 if (!await ns.scp(script, "home", target)) {
+	/backups/prepare.js
+		Line 29 await ns.scp(programs, target)
+		Line 32 //         await ns.scp(program, target)
+	buy-servers.js
+		Line 49 await ns.scp(scripts, "home", hostname)
+		Line 50 await ns.scp(extraScripts, "home", hostname)
+		Line 51 // await ns.scp("serverlist.txt", "home", hostname)
+
+
+/hacking_grow_mult/g
+ns.getPlayer().hacking_grow_mult was moved to ns.getPlayer().mults.hacking_grow
+
+	analyze-target.js
+		Line 25 return Math.pow(adjGrowthRate, numServerGrowthCyclesAdjusted * player.hacking_grow_mult * coreBonus);
+
+
+/hacking/g
+The work system is completely reworked and ns.getPlayer().hacking no longer exists. This data is likely available inside ns.getPlayer().currentWork, skills, exp, or hp
+
+	home-hack.js
+		Line 30 ["strat", "loop"], //See https://bitburner.readthedocs.io/en/latest/advancedgameplay/hackingalgorithms.html
+		Line 54 const hackingScripts = strategies.get(strategy).scripts
+		Line 64 if (hackingScripts.includes(filename)) {
+		Line 76 const avgRamNeededByScript = hackingScripts.map(s => ns.getScriptRam(s, currentHost)).reduce((acc, x) => acc + x, 0) / hackingScripts.length
+		Line 81 // ns.tprint(`${ns.nFormat(ramNeededByScript, "0.00")}GB/thread with ${askedRam}GB ram (${maxRam}GB total ram, ${cpuCores} cores): up to ${nbThreadsMax} threads for ${hackingScript}`)
+		Line 83 ns.tprint(`up to ${pretty(nbThreadsMax)} threads with ${pretty(freeRam)}GB available ram for scripts ${hackingScripts.join(", ")}`)
+		Line 143 for (const script of hackingScripts) {
+		Line 144 const actionThreads = nbThreads / hackingScripts.length
+	analyze-target.js
+		Line 25 return Math.pow(adjGrowthRate, numServerGrowthCyclesAdjusted * player.hacking_grow_mult * coreBonus);
+		Line 75 // Get the chance of successfully hacking a server.
+		Line 95 //     const hHackChance = ns.formulas.hacking.hackChance(server, me)
+		Line 96 //     const hHackValuePc = ns.formulas.hacking.hackPercent(server, me)
+		Line 97 //     const hHackTime = ns.formulas.hacking.hackTime(server, me)
+		Line 117 const hGrowPc = ns.formulas.hacking.growPercent(server, threads, me, cores) - 1
+		Line 118 const hGrowTime = ns.formulas.hacking.growTime(server, me)
+		Line 128 //     const hWeakenTime = ns.formulas.hacking.weakenTime(server, me)
+		Line 145 const checkGrowth = ns.formulas.hacking.growPercent(server, growthThreads, me, cores)
+
+

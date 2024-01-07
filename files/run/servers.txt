@@ -1,0 +1,2104 @@
+[
+    [
+        "home",
+        {
+            "depth": 0,
+            "trace": [],
+            "nodes": [
+                "n00dles",
+                "foodnstuff",
+                "sigma-cosmetics",
+                "joesguns",
+                "hong-fang-tea",
+                "harakiri-sushi",
+                "iron-gym"
+            ],
+            "files": [
+                "/backups/batch.js",
+                "/backups/prepare-targets.js",
+                "/backups/prepare.js",
+                "/lib/constants.js",
+                "/lib/stats.js",
+                "/run/servers.txt",
+                "/run/stats.txt",
+                "/scripts/batch.js",
+                "/scripts/clean-scripts.js",
+                "/scripts/hack-grow-weaken.js",
+                "/scripts/listener.js",
+                "/scripts/loop-grow.js",
+                "/scripts/loop-hack.js",
+                "/scripts/loop-test.js",
+                "/scripts/loop-weak.js",
+                "/scripts/prepare.js",
+                "/scripts/share.js",
+                "/scripts/weighted-loops.js",
+                "/v1/analyze-target.js",
+                "/v1/home-hack.js",
+                "/v1/loop.js",
+                "/v1/perf.js",
+                "/v1/scan-deploy.js",
+                "NUKE.exe",
+                "README.txt",
+                "V2_0_0_API_BREAK.txt",
+                "b1t_flum3.exe",
+                "buy-servers.js",
+                "command.js",
+                "contracts.js",
+                "exploits.js",
+                "gang-assign.js",
+                "hack-best.js",
+                "hackers-starting-handbook.lit",
+                "hacknet-upgrade.js",
+                "infiltration.js",
+                "scan-servers.js",
+                "servers-stats.js",
+                "sf4.js",
+                "test.js",
+                "ui-extension.js"
+            ],
+            "rooted": true,
+            "moneyAvail": 1030,
+            "maxMoney": 0,
+            "usedRam": 7.3,
+            "maxRam": 32,
+            "hackingLevel": 1,
+            "owned": true,
+            "faction": false
+        }
+    ],
+    [
+        "n00dles",
+        {
+            "depth": 1,
+            "trace": [
+                "home"
+            ],
+            "nodes": [
+                "home"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 52500,
+            "maxMoney": 196875,
+            "usedRam": 0,
+            "maxRam": 4,
+            "hackingLevel": 1,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "foodnstuff",
+        {
+            "depth": 1,
+            "trace": [
+                "home"
+            ],
+            "nodes": [
+                "home",
+                "CSEC"
+            ],
+            "files": [
+                "sector-12-crime.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 1500000,
+            "maxMoney": 5625000,
+            "usedRam": 0,
+            "maxRam": 16,
+            "hackingLevel": 1,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "sigma-cosmetics",
+        {
+            "depth": 1,
+            "trace": [
+                "home"
+            ],
+            "nodes": [
+                "home"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 1725000,
+            "maxMoney": 6468750,
+            "usedRam": 0,
+            "maxRam": 16,
+            "hackingLevel": 5,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "joesguns",
+        {
+            "depth": 1,
+            "trace": [
+                "home"
+            ],
+            "nodes": [
+                "home",
+                "nectar-net",
+                "max-hardware"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 1875000,
+            "maxMoney": 7031250,
+            "usedRam": 0,
+            "maxRam": 16,
+            "hackingLevel": 10,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "hong-fang-tea",
+        {
+            "depth": 1,
+            "trace": [
+                "home"
+            ],
+            "nodes": [
+                "home"
+            ],
+            "files": [
+                "brighter-than-the-sun.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 2250000,
+            "maxMoney": 8437500,
+            "usedRam": 0,
+            "maxRam": 16,
+            "hackingLevel": 30,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "harakiri-sushi",
+        {
+            "depth": 1,
+            "trace": [
+                "home"
+            ],
+            "nodes": [
+                "home",
+                "zer0"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 3000000,
+            "maxMoney": 11250000,
+            "usedRam": 0,
+            "maxRam": 16,
+            "hackingLevel": 40,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "iron-gym",
+        {
+            "depth": 1,
+            "trace": [
+                "home"
+            ],
+            "nodes": [
+                "home"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 15000000,
+            "maxMoney": 56250000,
+            "usedRam": 0,
+            "maxRam": 32,
+            "hackingLevel": 100,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "CSEC",
+        {
+            "depth": 2,
+            "trace": [
+                "home",
+                "foodnstuff"
+            ],
+            "nodes": [
+                "foodnstuff",
+                "omega-net"
+            ],
+            "files": [
+                "democracy-is-dead.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 0,
+            "maxMoney": 0,
+            "usedRam": 0,
+            "maxRam": 8,
+            "hackingLevel": 53,
+            "owned": false,
+            "faction": true
+        }
+    ],
+    [
+        "nectar-net",
+        {
+            "depth": 2,
+            "trace": [
+                "home",
+                "joesguns"
+            ],
+            "nodes": [
+                "joesguns",
+                "neo-net",
+                "silver-helix"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 2062500,
+            "maxMoney": 7734375,
+            "usedRam": 0,
+            "maxRam": 16,
+            "hackingLevel": 20,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "max-hardware",
+        {
+            "depth": 2,
+            "trace": [
+                "home",
+                "joesguns"
+            ],
+            "nodes": [
+                "joesguns"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 7500000,
+            "maxMoney": 28125000,
+            "usedRam": 0,
+            "maxRam": 32,
+            "hackingLevel": 80,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "zer0",
+        {
+            "depth": 2,
+            "trace": [
+                "home",
+                "harakiri-sushi"
+            ],
+            "nodes": [
+                "harakiri-sushi",
+                "phantasy"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 5625000,
+            "maxMoney": 21093750,
+            "usedRam": 0,
+            "maxRam": 32,
+            "hackingLevel": 75,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "omega-net",
+        {
+            "depth": 3,
+            "trace": [
+                "home",
+                "foodnstuff",
+                "CSEC"
+            ],
+            "nodes": [
+                "CSEC",
+                "johnson-ortho",
+                "crush-fitness",
+                "avmnite-02h"
+            ],
+            "files": [
+                "the-new-god.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 49349651.25,
+            "maxMoney": 185061192.1875,
+            "usedRam": 0,
+            "maxRam": 32,
+            "hackingLevel": 196,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "neo-net",
+        {
+            "depth": 3,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net"
+            ],
+            "nodes": [
+                "nectar-net",
+                "netlink"
+            ],
+            "files": [
+                "the-hidden-world.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 3750000,
+            "maxMoney": 14062500,
+            "usedRam": 0,
+            "maxRam": 32,
+            "hackingLevel": 50,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "silver-helix",
+        {
+            "depth": 3,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net"
+            ],
+            "nodes": [
+                "nectar-net",
+                "computek"
+            ],
+            "files": [
+                "new-triads.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 33750000,
+            "maxMoney": 126562500,
+            "usedRam": 0,
+            "maxRam": 64,
+            "hackingLevel": 150,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "phantasy",
+        {
+            "depth": 3,
+            "trace": [
+                "home",
+                "harakiri-sushi",
+                "zer0"
+            ],
+            "nodes": [
+                "zer0",
+                "the-hub"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 18000000,
+            "maxMoney": 67500000,
+            "usedRam": 0,
+            "maxRam": 32,
+            "hackingLevel": 100,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "johnson-ortho",
+        {
+            "depth": 4,
+            "trace": [
+                "home",
+                "foodnstuff",
+                "CSEC",
+                "omega-net"
+            ],
+            "nodes": [
+                "omega-net"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 53572677,
+            "maxMoney": 200897538.75,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 288,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "crush-fitness",
+        {
+            "depth": 4,
+            "trace": [
+                "home",
+                "foodnstuff",
+                "CSEC",
+                "omega-net"
+            ],
+            "nodes": [
+                "omega-net",
+                "I.I.I.I"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 44766227.25,
+            "maxMoney": 167873352.1875,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 275,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "avmnite-02h",
+        {
+            "depth": 4,
+            "trace": [
+                "home",
+                "foodnstuff",
+                "CSEC",
+                "omega-net"
+            ],
+            "nodes": [
+                "omega-net",
+                "zb-institute",
+                "syscore",
+                "catalyst"
+            ],
+            "files": [
+                "democracy-is-dead.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 0,
+            "maxMoney": 0,
+            "usedRam": 0,
+            "maxRam": 16,
+            "hackingLevel": 207,
+            "owned": false,
+            "faction": true
+        }
+    ],
+    [
+        "netlink",
+        {
+            "depth": 4,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "neo-net"
+            ],
+            "nodes": [
+                "neo-net"
+            ],
+            "files": [
+                "simulated-reality.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 206250000,
+            "maxMoney": 773437500,
+            "usedRam": 0,
+            "maxRam": 16,
+            "hackingLevel": 405,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "computek",
+        {
+            "depth": 4,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix"
+            ],
+            "nodes": [
+                "silver-helix",
+                "summit-uni"
+            ],
+            "files": [
+                "man-and-machine.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 167543296.5,
+            "maxMoney": 628287361.875,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 316,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "the-hub",
+        {
+            "depth": 4,
+            "trace": [
+                "home",
+                "harakiri-sushi",
+                "zer0",
+                "phantasy"
+            ],
+            "nodes": [
+                "phantasy",
+                "rothman-uni"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 142459353,
+            "maxMoney": 534222573.75,
+            "usedRam": 0,
+            "maxRam": 64,
+            "hackingLevel": 322,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "I.I.I.I",
+        {
+            "depth": 5,
+            "trace": [
+                "home",
+                "foodnstuff",
+                "CSEC",
+                "omega-net",
+                "crush-fitness"
+            ],
+            "nodes": [
+                "crush-fitness"
+            ],
+            "files": [
+                "democracy-is-dead.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 0,
+            "maxMoney": 0,
+            "usedRam": 0,
+            "maxRam": 256,
+            "hackingLevel": 343,
+            "owned": false,
+            "faction": true
+        }
+    ],
+    [
+        "zb-institute",
+        {
+            "depth": 5,
+            "trace": [
+                "home",
+                "foodnstuff",
+                "CSEC",
+                "omega-net",
+                "avmnite-02h"
+            ],
+            "nodes": [
+                "avmnite-02h",
+                "alpha-ent"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 628698059.25,
+            "maxMoney": 2357617722.1875,
+            "usedRam": 0,
+            "maxRam": 32,
+            "hackingLevel": 759,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "syscore",
+        {
+            "depth": 5,
+            "trace": [
+                "home",
+                "foodnstuff",
+                "CSEC",
+                "omega-net",
+                "avmnite-02h"
+            ],
+            "nodes": [
+                "avmnite-02h"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 364698984.75,
+            "maxMoney": 1367621192.8125,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 562,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "catalyst",
+        {
+            "depth": 5,
+            "trace": [
+                "home",
+                "foodnstuff",
+                "CSEC",
+                "omega-net",
+                "avmnite-02h"
+            ],
+            "nodes": [
+                "avmnite-02h"
+            ],
+            "files": [
+                "tensions-in-tech-race.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 395733684,
+            "maxMoney": 1484001315,
+            "usedRam": 0,
+            "maxRam": 128,
+            "hackingLevel": 403,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "summit-uni",
+        {
+            "depth": 5,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek"
+            ],
+            "nodes": [
+                "computek",
+                "lexo-corp",
+                "rho-construction",
+                "millenium-fitness"
+            ],
+            "files": [
+                "secret-societies.lit",
+                "synthetic-muscles.lit",
+                "the-failed-frontier.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 229064180.25,
+            "maxMoney": 858990675.9375,
+            "usedRam": 0,
+            "maxRam": 64,
+            "hackingLevel": 435,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "rothman-uni",
+        {
+            "depth": 5,
+            "trace": [
+                "home",
+                "harakiri-sushi",
+                "zer0",
+                "phantasy",
+                "the-hub"
+            ],
+            "nodes": [
+                "the-hub",
+                "aevum-police"
+            ],
+            "files": [
+                "secret-societies.lit",
+                "tensions-in-tech-race.lit",
+                "the-failed-frontier.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 167706874.5,
+            "maxMoney": 628900779.375,
+            "usedRam": 0,
+            "maxRam": 64,
+            "hackingLevel": 388,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "alpha-ent",
+        {
+            "depth": 6,
+            "trace": [
+                "home",
+                "foodnstuff",
+                "CSEC",
+                "omega-net",
+                "avmnite-02h",
+                "zb-institute"
+            ],
+            "nodes": [
+                "zb-institute",
+                "aerocorp"
+            ],
+            "files": [
+                "sector-12-crime.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 529858938.75,
+            "maxMoney": 1986971020.3125,
+            "usedRam": 0,
+            "maxRam": 128,
+            "hackingLevel": 548,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "lexo-corp",
+        {
+            "depth": 6,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni"
+            ],
+            "nodes": [
+                "summit-uni"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 561296949.75,
+            "maxMoney": 2104863561.5625,
+            "usedRam": 0,
+            "maxRam": 128,
+            "hackingLevel": 713,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "rho-construction",
+        {
+            "depth": 6,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni"
+            ],
+            "nodes": [
+                "summit-uni",
+                "global-pharm"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 451560032.25,
+            "maxMoney": 1693350120.9375,
+            "usedRam": 0,
+            "maxRam": 64,
+            "hackingLevel": 500,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "millenium-fitness",
+        {
+            "depth": 6,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni"
+            ],
+            "nodes": [
+                "summit-uni",
+                "galactic-cyber"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 187500000,
+            "maxMoney": 703125000,
+            "usedRam": 0,
+            "maxRam": 32,
+            "hackingLevel": 481,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "aevum-police",
+        {
+            "depth": 6,
+            "trace": [
+                "home",
+                "harakiri-sushi",
+                "zer0",
+                "phantasy",
+                "the-hub",
+                "rothman-uni"
+            ],
+            "nodes": [
+                "rothman-uni",
+                "snap-fitness"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 188173229.25,
+            "maxMoney": 705649609.6875,
+            "usedRam": 0,
+            "maxRam": 64,
+            "hackingLevel": 449,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "aerocorp",
+        {
+            "depth": 7,
+            "trace": [
+                "home",
+                "foodnstuff",
+                "CSEC",
+                "omega-net",
+                "avmnite-02h",
+                "zb-institute",
+                "alpha-ent"
+            ],
+            "nodes": [
+                "alpha-ent"
+            ],
+            "files": [
+                "man-and-machine.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 790594741.5,
+            "maxMoney": 2964730280.625,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 851,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "global-pharm",
+        {
+            "depth": 7,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "rho-construction"
+            ],
+            "nodes": [
+                "rho-construction",
+                "unitalife"
+            ],
+            "files": [
+                "A-Green-Tomorrow.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 1206604049.25,
+            "maxMoney": 4524765184.6875,
+            "usedRam": 0,
+            "maxRam": 16,
+            "hackingLevel": 769,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "galactic-cyber",
+        {
+            "depth": 7,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness"
+            ],
+            "nodes": [
+                "millenium-fitness",
+                "omnia",
+                "deltaone"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 580151649,
+            "maxMoney": 2175568683.75,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 847,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "snap-fitness",
+        {
+            "depth": 7,
+            "trace": [
+                "home",
+                "harakiri-sushi",
+                "zer0",
+                "phantasy",
+                "the-hub",
+                "rothman-uni",
+                "aevum-police"
+            ],
+            "nodes": [
+                "aevum-police"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 337500000,
+            "maxMoney": 1265625000,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 750,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "unitalife",
+        {
+            "depth": 8,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "rho-construction",
+                "global-pharm"
+            ],
+            "nodes": [
+                "global-pharm"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 760929694.5,
+            "maxMoney": 2853486354.375,
+            "usedRam": 0,
+            "maxRam": 16,
+            "hackingLevel": 809,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "omnia",
+        {
+            "depth": 8,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber"
+            ],
+            "nodes": [
+                "galactic-cyber",
+                "defcomm",
+                "icarus",
+                "univ-energy",
+                "solaris"
+            ],
+            "files": [
+                "history-of-synthoids.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 700219290.75,
+            "maxMoney": 2625822340.3125,
+            "usedRam": 0,
+            "maxRam": 16,
+            "hackingLevel": 931,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "deltaone",
+        {
+            "depth": 8,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber"
+            ],
+            "nodes": [
+                "galactic-cyber",
+                "zeus-med"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 1205865911.25,
+            "maxMoney": 4521997167.1875,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 851,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "defcomm",
+        {
+            "depth": 9,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia"
+            ],
+            "nodes": [
+                "omnia"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 627484259.25,
+            "maxMoney": 2353065972.1875,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 1045,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "icarus",
+        {
+            "depth": 9,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia"
+            ],
+            "nodes": [
+                "omnia"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 749206216.5,
+            "maxMoney": 2809523311.875,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 859,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "univ-energy",
+        {
+            "depth": 9,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia"
+            ],
+            "nodes": [
+                "omnia",
+                "infocomm",
+                "nova-med"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 839955180.75,
+            "maxMoney": 3149831927.8125,
+            "usedRam": 0,
+            "maxRam": 16,
+            "hackingLevel": 835,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "solaris",
+        {
+            "depth": 9,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia"
+            ],
+            "nodes": [
+                "omnia",
+                "zb-def"
+            ],
+            "files": [
+                "A-Green-Tomorrow.lit",
+                "the-failed-frontier.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 577969923.75,
+            "maxMoney": 2167387214.0625,
+            "usedRam": 0,
+            "maxRam": 128,
+            "hackingLevel": 827,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "zeus-med",
+        {
+            "depth": 9,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "deltaone"
+            ],
+            "nodes": [
+                "deltaone",
+                "taiyang-digital"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 1013953608,
+            "maxMoney": 3802326030,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 825,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "infocomm",
+        {
+            "depth": 10,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy"
+            ],
+            "nodes": [
+                "univ-energy",
+                "microdyne",
+                "applied-energetics"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 465728265,
+            "maxMoney": 1746480993.75,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 878,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "nova-med",
+        {
+            "depth": 10,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy"
+            ],
+            "nodes": [
+                "univ-energy",
+                "titan-labs"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 930268960.5,
+            "maxMoney": 3488508601.875,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 795,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "zb-def",
+        {
+            "depth": 10,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "solaris"
+            ],
+            "nodes": [
+                "solaris"
+            ],
+            "files": [
+                "synthetic-muscles.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 706941678,
+            "maxMoney": 2651031292.5,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 777,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "taiyang-digital",
+        {
+            "depth": 10,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "deltaone",
+                "zeus-med"
+            ],
+            "nodes": [
+                "zeus-med",
+                "run4theh111z"
+            ],
+            "files": [
+                "A-Green-Tomorrow.lit",
+                "brighter-than-the-sun.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 673318425,
+            "maxMoney": 2524944093.75,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 855,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "microdyne",
+        {
+            "depth": 11,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm"
+            ],
+            "nodes": [
+                "infocomm",
+                "fulcrumtech"
+            ],
+            "files": [
+                "synthetic-muscles.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 416445787.5,
+            "maxMoney": 1561671703.125,
+            "usedRam": 0,
+            "maxRam": 16,
+            "hackingLevel": 856,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "applied-energetics",
+        {
+            "depth": 11,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm"
+            ],
+            "nodes": [
+                "infocomm",
+                "stormtech"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 538784501.25,
+            "maxMoney": 2020441879.6875,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 803,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "titan-labs",
+        {
+            "depth": 11,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "nova-med"
+            ],
+            "nodes": [
+                "nova-med"
+            ],
+            "files": [
+                "coded-intelligence.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 576257506.5,
+            "maxMoney": 2160965649.375,
+            "usedRam": 0,
+            "maxRam": 64,
+            "hackingLevel": 875,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "run4theh111z",
+        {
+            "depth": 11,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "deltaone",
+                "zeus-med",
+                "taiyang-digital"
+            ],
+            "nodes": [
+                "taiyang-digital",
+                "helios",
+                "vitalife"
+            ],
+            "files": [
+                "simulated-reality.lit",
+                "the-new-god.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 0,
+            "maxMoney": 0,
+            "usedRam": 0,
+            "maxRam": 128,
+            "hackingLevel": 507,
+            "owned": false,
+            "faction": true
+        }
+    ],
+    [
+        "fulcrumtech",
+        {
+            "depth": 12,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm",
+                "microdyne"
+            ],
+            "nodes": [
+                "microdyne",
+                "omnitek"
+            ],
+            "files": [
+                "simulated-reality.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 1308237472.5,
+            "maxMoney": 4905890521.875,
+            "usedRam": 0,
+            "maxRam": 512,
+            "hackingLevel": 1186,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "stormtech",
+        {
+            "depth": 12,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm",
+                "applied-energetics"
+            ],
+            "nodes": [
+                "applied-energetics",
+                "4sigma",
+                "kuai-gong",
+                "."
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 826905441.75,
+            "maxMoney": 3100895406.5625,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 994,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "helios",
+        {
+            "depth": 12,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "deltaone",
+                "zeus-med",
+                "taiyang-digital",
+                "run4theh111z"
+            ],
+            "nodes": [
+                "run4theh111z"
+            ],
+            "files": [
+                "beyond-man.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 543894774,
+            "maxMoney": 2039605402.5,
+            "usedRam": 0,
+            "maxRam": 64,
+            "hackingLevel": 802,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "vitalife",
+        {
+            "depth": 12,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "deltaone",
+                "zeus-med",
+                "taiyang-digital",
+                "run4theh111z"
+            ],
+            "nodes": [
+                "run4theh111z"
+            ],
+            "files": [
+                "A-Green-Tomorrow.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 571071732,
+            "maxMoney": 2141518995,
+            "usedRam": 0,
+            "maxRam": 64,
+            "hackingLevel": 862,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "omnitek",
+        {
+            "depth": 13,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm",
+                "microdyne",
+                "fulcrumtech"
+            ],
+            "nodes": [
+                "fulcrumtech",
+                "b-and-a"
+            ],
+            "files": [
+                "coded-intelligence.lit",
+                "history-of-synthoids.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 12445918071.75,
+            "maxMoney": 46672192769.0625,
+            "usedRam": 0,
+            "maxRam": 256,
+            "hackingLevel": 1039,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "4sigma",
+        {
+            "depth": 13,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm",
+                "applied-energetics",
+                "stormtech"
+            ],
+            "nodes": [
+                "stormtech",
+                "blade",
+                "powerhouse-fitness"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 14086201807.5,
+            "maxMoney": 52823256778.125,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 945,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "kuai-gong",
+        {
+            "depth": 13,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm",
+                "applied-energetics",
+                "stormtech"
+            ],
+            "nodes": [
+                "stormtech"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 22305025569.75,
+            "maxMoney": 83643845886.5625,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 1085,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        ".",
+        {
+            "depth": 13,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm",
+                "applied-energetics",
+                "stormtech"
+            ],
+            "nodes": [
+                "stormtech",
+                "nwo",
+                "clarkinc"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 0,
+            "maxMoney": 0,
+            "usedRam": 0,
+            "maxRam": 16,
+            "hackingLevel": 512,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "b-and-a",
+        {
+            "depth": 14,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm",
+                "microdyne",
+                "fulcrumtech",
+                "omnitek"
+            ],
+            "nodes": [
+                "omnitek",
+                "fulcrumassets"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 19497831354.75,
+            "maxMoney": 73116867580.3125,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 1141,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "blade",
+        {
+            "depth": 14,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm",
+                "applied-energetics",
+                "stormtech",
+                "4sigma"
+            ],
+            "nodes": [
+                "4sigma",
+                "megacorp"
+            ],
+            "files": [
+                "beyond-man.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 9130081497,
+            "maxMoney": 34237805613.75,
+            "usedRam": 0,
+            "maxRam": 128,
+            "hackingLevel": 937,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "powerhouse-fitness",
+        {
+            "depth": 14,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm",
+                "applied-energetics",
+                "stormtech",
+                "4sigma"
+            ],
+            "nodes": [
+                "4sigma"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 675000000,
+            "maxMoney": 2531250000,
+            "usedRam": 0,
+            "maxRam": 16,
+            "hackingLevel": 1058,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "nwo",
+        {
+            "depth": 14,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm",
+                "applied-energetics",
+                "stormtech",
+                "."
+            ],
+            "nodes": [
+                ".",
+                "ecorp"
+            ],
+            "files": [
+                "the-hidden-world.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 18463235492.25,
+            "maxMoney": 69237133095.9375,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 1016,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "clarkinc",
+        {
+            "depth": 14,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm",
+                "applied-energetics",
+                "stormtech",
+                "."
+            ],
+            "nodes": [
+                ".",
+                "The-Cave"
+            ],
+            "files": [
+                "beyond-man.lit",
+                "cost-of-immortality.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 13342478096.25,
+            "maxMoney": 50034292860.9375,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 1024,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "fulcrumassets",
+        {
+            "depth": 15,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm",
+                "microdyne",
+                "fulcrumtech",
+                "omnitek",
+                "b-and-a"
+            ],
+            "nodes": [
+                "b-and-a"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 750000,
+            "maxMoney": 2812500,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 1299,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "megacorp",
+        {
+            "depth": 15,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm",
+                "applied-energetics",
+                "stormtech",
+                "4sigma",
+                "blade"
+            ],
+            "nodes": [
+                "blade"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 40784972625,
+            "maxMoney": 152943647343.75,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 1307,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "ecorp",
+        {
+            "depth": 15,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm",
+                "applied-energetics",
+                "stormtech",
+                ".",
+                "nwo"
+            ],
+            "nodes": [
+                "nwo"
+            ],
+            "files": [],
+            "rooted": false,
+            "moneyAvail": 41869138707.75,
+            "maxMoney": 157009270154.0625,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 1364,
+            "owned": false,
+            "faction": false
+        }
+    ],
+    [
+        "The-Cave",
+        {
+            "depth": 15,
+            "trace": [
+                "home",
+                "joesguns",
+                "nectar-net",
+                "silver-helix",
+                "computek",
+                "summit-uni",
+                "millenium-fitness",
+                "galactic-cyber",
+                "omnia",
+                "univ-energy",
+                "infocomm",
+                "applied-energetics",
+                "stormtech",
+                ".",
+                "clarkinc"
+            ],
+            "nodes": [
+                "clarkinc"
+            ],
+            "files": [
+                "alpha-omega.lit"
+            ],
+            "rooted": false,
+            "moneyAvail": 0,
+            "maxMoney": 0,
+            "usedRam": 0,
+            "maxRam": 0,
+            "hackingLevel": 925,
+            "owned": false,
+            "faction": false
+        }
+    ]
+]
