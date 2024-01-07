@@ -1,4 +1,4 @@
 node_modules/
 dist/
 package-lock.json
-NetscriptDefinitions.d.ts
+*NetscriptDefinitions.d.ts
